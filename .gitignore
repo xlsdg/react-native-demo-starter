@@ -56,7 +56,7 @@ buck-out/
 *.jsbundle
 
 # VSCode
-.react
+.vscode/.react
 
 # lock
 yarn.lock

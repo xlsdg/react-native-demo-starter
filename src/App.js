@@ -36,6 +36,13 @@ const styles = StyleSheet.create({
 
 type Props = {};
 export default class App extends React.Component<Props> {
+  componentDidMount() {
+    const that = this;
+    console.log('componentDidMount', that.props, that.state);
+    // const {  } = that.props;
+    // const {  } = that.state;
+  }
+
   render() {
     return (
       <View style={styles.container}>
