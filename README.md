@@ -26,6 +26,12 @@ react-native init ReactNativeDemoStarter
 }
 ```
 
+根据 `.flowconfig` 添加特定版本的 `Flow`：
+
+```bash
+yarn add -D flow-bin@0.86.0
+```
+
 添加 `CommitLint`：
 
 ```bash
