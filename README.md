@@ -25,3 +25,15 @@ react-native init ReactNativeDemoStarter
   "javascript.validate.enable": false
 }
 ```
+
+添加 `CommitLint`：
+
+```bash
+yarn add -D lint-staged husky @commitlint/cli @commitlint/config-conventional
+```
+
+添加 `ESLint`：
+
+```bash
+yarn add -D babel-eslint eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react prettier
+```
