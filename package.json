@@ -4,6 +4,9 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
+    "lint": "eslint --ext .js src",
+    "lint:fix": "eslint --fix --ext .js src",
+    "prettier": "prettier --write './src/**/*.{js,jsx,ts,tsx,less,scss,css,json}'",
     "test": "jest"
   },
   "dependencies": {
