@@ -36,10 +36,11 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": ["import", "jsx-a11y", "react", "prettier"],
+  "plugins": ["import", "jsx-a11y", "react", "react-hooks", "prettier"],
   "root": true,
   "rules": {
     "prettier/prettier": "error",
-    "react/jsx-filename-extension": [1, { "extensions": [".js"] }]
+    "react-hooks/rules-of-hooks": "error",
+    "react/jsx-filename-extension": ["warn", { "extensions": [".js"] }]
   }
 }
